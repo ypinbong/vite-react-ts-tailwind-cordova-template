@@ -1,10 +1,14 @@
 {
-  "name": "vite-react-ts-tailwind-template",
+  "name": "vite-react-ts-tailwind-template-cordova",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "copy-to-cordova": "cp -r dist/* cordova/www && cp -r dist/assets/* cordova/www/assets && rm -rf dist",
+    "clear-cordova": "rm -rf cordova/www/*",
+    "cordova-run": "cd cordova && cordova run android",
+    "cordova": "npm run build && npm run clear-cordova && npm run copy-to-cordova && npm run cordova-run",
     "preview": "vite preview"
   },
   "dependencies": {
