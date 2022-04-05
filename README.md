@@ -1,12 +1,12 @@
 # vite-react-ts-tailwind-cordova-template April 04, 2022
 Basic config of vite + react + ts + tailwind + cordova with custom scripts to make the app in cordova.
 
-This is porting https://github.com/ypinbong/vite-react-ts-tailwind-template inside cordova for mobile development.
+*This is porting [this repo template](https://github.com/ypinbong/vite-react-ts-tailwind-template) inside cordova for mobile development.*
 
 To recreate this repo locally you can:
 -
 
-1. Follow the instructions for creating a `vite` + `react` + `ts` + `tailwindcss` stack here: https://github.com/ypinbong/vite-react-ts-tailwind-template or clone the said repo and install dependencies (`npm ci`):
+1. Follow the instructions for creating a `vite` + `react` + `ts` + `tailwindcss` stack [here](https://github.com/ypinbong/vite-react-ts-tailwind-template) or clone the said repo and install dependencies (`npm ci`):
 ```sh
 git clone https://github.com/ypinbong/vite-react-ts-tailwind-template.git
 ```
