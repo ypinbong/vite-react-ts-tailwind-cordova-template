@@ -82,8 +82,11 @@ function onDeviceReady() {
 ```sh
 npm run cordova
 ```
-9. if you get an error about `command not found` (you may not encounter this when you're using linux), then you need to configure your npm script-shell to use git's bash, path may vary depending on where you install git
+Troubleshooting
+-
+If you get an error about `command not found` (you may not encounter this when you're using linux), then you need to configure your npm script-shell to use git's bash, path may vary depending on where you install git
 ```sh
 npm config set script-shell "C:\\Program Files\\Git\\bin\\bash.exe"
 ```
-10. Happy hacking!
+That's it!
+Happy hacking!
