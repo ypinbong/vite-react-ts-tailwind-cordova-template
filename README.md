@@ -1,6 +1,14 @@
 # vite-react-ts-tailwind-cordova-template April 04, 2022
 Basic config of vite + react + ts + tailwind + cordova with custom scripts to make the app in cordova.
 
+Scope:
+-
+node and npm version
+```sh
+v16.14.2
+8.5.0
+```
+
 *This is porting [this repo template](https://github.com/ypinbong/vite-react-ts-tailwind-template) inside cordova for mobile development.*
 
 To recreate this repo locally you can:
